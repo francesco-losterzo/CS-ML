@@ -7,8 +7,6 @@ function idx = findClosestCentroids(X, centroids)
 
 % Set K
 K = size(centroids, 1);
-size(centroids)
-K
 
 % You need to return the following variables correctly.
 idx = zeros(size(X,1), 1);
